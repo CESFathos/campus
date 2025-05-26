@@ -5,7 +5,7 @@ body {
     padding: 0;
     background-color: #f4f7f6; /* Um fundo bem claro e suave */
     color: #333;
-    line-height: 1.7; /* Melhora a leitura do texto */
+    line-height: 3.0; /* Melhora a leitura do texto */
 }
 
 /* Estilos do cabeçalho */
@@ -119,13 +119,21 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     width: 100%;
-    font-size: 0.9em;
+    font-size: 10px;
 }
 
 #desafios {
     text-align: center;
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#solucoes {
+    text-align: center;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 50px;
 }
