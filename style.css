@@ -60,7 +60,7 @@ nav ul li a:hover {
 /* Estilos da área principal de conteúdo */
 main {
     padding: 30px 20px;
-    max-width: 960px;
+    max-width: 600x;
     margin: 20px auto;
     background-color: white;
     border-radius: 8px;
@@ -136,4 +136,8 @@ footer {
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 50px;
+}
+
+#image_ilus {
+    text-align: center;
 }
