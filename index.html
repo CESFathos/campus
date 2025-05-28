@@ -1,175 +1,63 @@
-/* RESET SIMPLES */
-*, *::before, *::after {
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Plataforma de Colaboração Sustentável</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-/* CORPO */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    color: #111111;
-    line-height: 1.8;
-    font-size: 1.125rem; /* 18px */
-    letter-spacing: 0.03em; /* ajuda dislexia */
-    margin: 0;
-    padding: 0;
-}
+    <a href="#conteudo" class="skip-link">Pular para o conteúdo</a>
 
-/* LINK PULAR PARA O CONTEÚDO */
-.skip-link {
-    position: absolute;
-    top: -40px;
-    left: 10px;
-    background: #000000;
-    color: #ffffff;
-    padding: 10px 15px;
-    z-index: 1000;
-    border-radius: 4px;
-    font-weight: bold;
-    text-decoration: none;
-}
-.skip-link:focus {
-    top: 10px;
-}
+    <header role="banner">
+        <h1>Plataforma de Colaboração com o Meio Ambiente</h1>
+        <p>Do campo à cidade, colhendo oportunidades juntos.</p>
+    </header>
 
-/* HEADER */
-header[role="banner"] {
-    background-color: #2e8b57;
-    color: #ffffff;
-    padding: 2rem 1rem;
-    text-align: center;
-}
-header h1 {
-    font-size: 2.5rem;
-    margin: 0 0 0.5rem;
-}
-header p {
-    font-size: 1.25rem;
-    font-weight: 400;
-    margin: 0;
-    opacity: 0.9;
-}
+    <nav aria-label="Menu principal">
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#desafios">Desafios</a></li>
+            <li><a href="#solucoes">Soluções</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
 
-/* NAVEGAÇÃO */
-nav[aria-label="Menu principal"] {
-    background-color: #d9f5ec;
-    border-bottom: 3px solid #2e8b57;
-}
-nav ul {
-    display: flex;
-    justify-content: center;
-    padding: 0.75rem 0;
-    margin: 0;
-    list-style: none;
-}
-nav li {
-    margin: 0 1.5rem;
-}
-nav a {
-    color: #2e8b57;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 1.125rem;
-    padding: 0.25rem 0.5rem;
-    border-radius: 5px;
-    display: inline-block;
-}
-nav a:hover,
-nav a:focus {
-    background-color: #2e8b57;
-    color: #ffffff;
-    outline: 3px solid #000000;
-    outline-offset: 3px;
-}
+    <main id="conteudo">
+        <section class="hero">
+            <h2>Colabore por um Futuro Sustentável</h2>
+            <p>Conectando mentes do campo e da cidade para impulsionar o desenvolvimento econômico e social.</p>
+            <a href="https://www.cerradodasaguas.org.br/invista-pelo-futuro" class="cta" target="_blank" rel="noopener noreferrer">
+                Campanhas Meio Ambiente
+            </a>
+        </section>
 
-/* MAIN */
-main#conteudo {
-    max-width: 900px;
-    margin: 2rem auto;
-    padding: 0 1rem 4rem;
-}
-main section {
-    margin-bottom: 3rem;
-}
-main h2 {
-    color: #2e8b57;
-    font-size: 2rem;
-    border-bottom: 3px solid #2e8b57;
-    padding-bottom: 0.25rem;
-    margin-bottom: 1rem;
-}
-main p, main ul {
-    font-size: 1.125rem;
-    margin: 0 0 1rem 0;
-}
-main ul {
-    padding-left: 1.25rem;
-}
-main ul li {
-    margin-bottom: 0.7rem;
-}
+        <section id="desafios">
+            <h2>Desafios</h2>
+            <ul>
+                <li>Economize energia: troque lâmpadas por modelos eficientes e evite luzes acesas desnecessárias.</li>
+                <li>Economize papel: prefira documentos digitais e reutilize papéis sempre que possível.</li>
+                <li>Tenha um dia vegetariano para economizar água e preservar florestas.</li>
+                <li>Desligue a torneira enquanto escova os dentes ou ensaboa louças para economizar água.</li>
+                <li>Reduza o consumo de plástico usando sacolas reutilizáveis e garrafinhas próprias.</li>
+            </ul>
+        </section>
 
-/* BOTÃO / CTA */
-a.cta {
-    background-color: #007bff;
-    color: white;
-    font-weight: 700;
-    padding: 1rem 2rem;
-    text-decoration: none;
-    border-radius: 6px;
-    font-size: 1.25rem;
-    display: inline-block;
-    margin-top: 1rem;
-    transition: background-color 0.3s ease-in-out;
-}
-a.cta:hover,
-a.cta:focus {
-    background-color: #0056b3;
-    outline: 4px solid #000000;
-    outline-offset: 4px;
-}
+        <section id="solucoes">
+            <h2>Soluções</h2>
+            <p>Assista ao vídeo abaixo com ideias para um futuro sustentável.</p>
+            <iframe 
+                title="Vídeo sobre sustentabilidade" 
+                src="https://www.youtube.com/embed/EWqnWXnXURw" 
+                allowfullscreen>
+            </iframe>
+        </section>
+    </main>
 
-/* IFRAME */
-iframe {
-    width: 100%;
-    max-width: 560px;
-    height: 315px;
-    border: none;
-    border-radius: 10px;
-    display: block;
-    margin: 1rem auto 0;
-}
+    <footer role="contentinfo" id="contato">
+        <p>&copy; 2025 Plataforma Agrinho de Colaboração e Inovação</p>
+    </footer>
 
-/* FOOTER */
-footer[role="contentinfo"] {
-    background-color: #2e8b57;
-    color: #ffffff;
-    text-align: center;
-    padding: 1.5rem 1rem;
-    font-size: 0.875rem;
-    position: sticky;
-    bottom: 0;
-}
-
-/* FOCO VISÍVEL */
-a:focus,
-button:focus {
-    outline: 4px solid #000;
-    outline-offset: 3px;
-}
-
-/* ESPAÇAMENTO PARA DISLEXIA */
-body {
-    word-spacing: 0.15em;
-}
-
-/* RESPONSIVO */
-@media (max-width: 600px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-    nav li {
-        margin: 0.5rem 0;
-    }
-}
+</body>
+</html>
