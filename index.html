@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Plataforma de Colaboração Com O Campo</title>
-    </head>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Plataforma de Colaboração Sustentável</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
 <body>
-    <header>
-        <h1>Plataforma de Colaboração com Meio Ambiente</h1>
+
+    <a href="#conteudo" class="skip-link">Pular para o conteúdo</a>
+
+    <header role="banner">
+        <h1>Plataforma de Colaboração com o Meio Ambiente</h1>
         <p>Do campo à cidade, colhendo oportunidades juntos.</p>
     </header>
 
-    <nav>
+    <nav aria-label="Menu principal">
         <ul>
             <li><a href="#">Início</a></li>
             <li><a href="#desafios">Desafios</a></li>
@@ -20,43 +23,41 @@
             <li><a href="#contato">Contato</a></li>
         </ul>
     </nav>
-    <main>
+
+    <main id="conteudo">
         <section class="hero">
             <h2>Colabore por um Futuro Sustentável</h2>
             <p>Conectando mentes do campo e da cidade para impulsionar o desenvolvimento econômico e social.</p>
-            <div class="call-to-action">
-                <a href="https://www.cerradodasaguas.org.br/invista-pelo-futuro?gad_source=1&gad_campaignid=22348528526&gbraid=0AAAAApF-DyuAe6qJR7n91M9FSvIQ4uZc_&gclid=EAIaIQobChMIgrXgwbPBjQMVREFIAB3mGAynEAAYASAAEgJOtfD_BwE">CAMPANHAS MEIO AMBIENTE</a>
-            </div>
+            <a href="https://www.cerradodasaguas.org.br/invista-pelo-futuro" class="cta" target="_blank" rel="noopener noreferrer">
+                Campanhas Meio Ambiente
+            </a>
         </section>
 
         <section id="desafios">
             <h2>Desafios</h2>
-            <p>Economize energia:
-                comece trocando as lâmpadas por modelos eficientes — se cada casa nos Estados Unidos fizesse isso, por exemplo, o país reduziria o mesmo nível de poluição que se tirasse 1 milhão de carros das estradas. Em seguida, preste atenção para não deixar luzes acesas em cômodos que não estão sendo utilizados e desligue o computador durante a noite. Nas tarefas domésticas, busque ser mais eficiente, por exemplo, esperando acumular roupas o suficiente para encher uma máquina antes de lavá-las.
-                
-                Economize papel:
-                evite impressões desnecessárias: ingressos (quando há a opção de e-ticket), extratos de banco, via da compra no cartão, contas que podem ser pagas online… Nada disso precisa ser impresso. Ao usar papel para anotações, certifique-se de usá-lo por completo antes de reciclar. E, na hora de dar presentes, experimente reutilizar papéis antigos ou buscar novas formas criativas de embrulhá-los.
-                
-                Tenha um dia vegetariano:
-                você não precisa parar de comer carne, mas experimente deixar de consumir carne por somente um dia. São necessários 9,5 mil litros de água para produzir cada meio quilo de carne, e cada hambúrguer que vem de animais que pastam em áreas desmatadas causou a destruição de cinco metros quadrados de floresta.
-                
-                Desligue a torneira:
-                só de desligar a torneira ao escovar os dentes, por exemplo, é possível economizar 18 litros de água por dia. Experimente fazer o mesmo quando for ensaboar as mãos ou as louças na pia na hora de lavá-las para economizar ainda mais.
-                
-                Reduza o consumo de plástico:
-                você já deve ter ouvido falar da ilha de plástico no Pacífico. Ela é formada por 4 milhões de toneladas de plástico e tem quase duas vezes o tamanho do estado de São Paulo. Reduzir o consumo de plástico no dia a dia é fundamental para reverter este cenário. Muitas cidades brasileiras já aboliram a sacola plástica no supermercado ou passaram a cobrar por ela para tentar limitar o consumo. Se não for o caso da sua, experimente levar as próprias sacolas ou uma mochila para colocar as compras. Tenha também a própria garrafinha para quando precisar tomar água: cerca de 90% das garrafas de plástico não são recicladas e acabam em aterros. E, se for usar copos plásticos em festas, tente lembrar qual é o seu ou adote a técnica de marcar o nome com uma caneta em vez de jogá-lo no lixo cada vez que for tomar algo.</p>
-            </section>
+            <ul>
+                <li>Economize energia: troque lâmpadas por modelos eficientes e evite luzes acesas desnecessárias.</li>
+                <li>Economize papel: prefira documentos digitais e reutilize papéis sempre que possível.</li>
+                <li>Tenha um dia vegetariano para economizar água e preservar florestas.</li>
+                <li>Desligue a torneira enquanto escova os dentes ou ensaboa louças para economizar água.</li>
+                <li>Reduza o consumo de plástico usando sacolas reutilizáveis e garrafinhas próprias.</li>
+            </ul>
+        </section>
+
         <section id="solucoes">
-                <h2>Soluções</h2>
-                <p></p>
-            <iframe width="420" height="315"
-                src="https://youtu.be/EWqnWXnXURw?si=A76oPzD-rTdqa-Wa">
-            </iframe
+            <h2>Soluções</h2>
+            <p>Assista ao vídeo abaixo com ideias para um futuro sustentável.</p>
+            <iframe 
+                title="Vídeo sobre sustentabilidade" 
+                src="https://www.youtube.com/embed/EWqnWXnXURw" 
+                allowfullscreen>
+            </iframe>
         </section>
     </main>
 
-    <footer>
+    <footer role="contentinfo" id="contato">
         <p>&copy; 2025 Plataforma Agrinho de Colaboração e Inovação</p>
     </footer>
+
 </body>
 </html>
